@@ -37,25 +37,25 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'joao.silva@email.com',
-      href: 'mailto:joao.silva@email.com'
+      value: 'tainoxslr@gmail.com',
+      href: 'mailto:tainoxslr@gmail.com'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'linkedin.com/in/joaosilva',
-      href: 'https://linkedin.com/in/joaosilva'
+      href: 'https://www.linkedin.com/in/taino-samuel-674a80305/'
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/joaosilva',
-      href: 'https://github.com/joaosilva'
+      value: 'github.com/tainoxs',
+      href: 'https://github.com/tainoxs'
     },
     {
       icon: MapPin,
       label: 'Localização',
-      value: 'São Paulo, Brasil',
+      value: 'São Luís - MA, Brasil',
       href: '#'
     }
   ];

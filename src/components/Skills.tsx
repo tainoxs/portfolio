@@ -39,18 +39,6 @@ const Skills: React.FC = () => {
         // { name: 'Firebase', logo: '🔥', level: 80 },
       ]
     },
-    {
-      title: 'Ferramentas',
-      skills: [
-        // { name: 'PostgreSQL', logo: '🐘', level: 90 },
-        // { name: 'MongoDB', logo: '🍃', level: 85 },
-        // { name: 'AWS', logo: '☁️', level: 80 },
-        { name: 'Figma', logo: '𝐅', level: 90 },  
-        { name: 'Google', logo: '🐬', level: 70 },
-        // { name: 'Redis', logo: '🔴', level: 75 },
-        // { name: 'Firebase', logo: '🔥', level: 80 },
-      ]
-    },
   ];
 
   return (
