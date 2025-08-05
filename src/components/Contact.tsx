@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/joaosilva',
+      value: 'linkedin.com/in/taino-samuel',
       href: 'https://www.linkedin.com/in/taino-samuel-674a80305/'
     },
     {
