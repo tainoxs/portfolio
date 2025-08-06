@@ -4,7 +4,7 @@ import { ChevronDown, Code2, Database, Cloud } from 'lucide-react';
 const Hero: React.FC = () => {
   const [currentRole, setCurrentRole] = useState(0);
   const roles = [
-    'Desenvolvedor Backend',
+    'Desenvolvedor Full-Stack',
     'Entusiasta de UI/UX',
   ];
 

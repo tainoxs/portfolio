@@ -5,23 +5,24 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Reconhecimento Facial para Presença Automática',
-      description: 'Plataforma completa de e-commerce com painel administrativo, sistema de pagamentos e gerenciamento de estoque. Construída com arquitetura microserviços para alta escalabilidade.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
-      features: ['Pagamentos', 'Admin Panel', 'Microserviços'],
+      description: 'Sistema de reconhecimento facial para controle de acesso em ambiente de ensino do CEUMA (Incode e ADS), com registro automático e features de gamificação pontuadas, como desafios, recompensas e rankeamento.(em desenvolvimento).',
+
+      image: 'https://lh3.googleusercontent.com/fife/ALs6j_FMwLDPLdHrC2rO3T5c6P5QsXkZFFpt-EKw2_LQEiRiPJl8NOw3e1UazB06inkWqmRoFqdAP8ZMLr289IbMJ9P0FkrIgrP1-1FeKYuF-USG-fdhx6lv-4k4sQD-OzLdSM0uzVsc8YBBRkIr_oKQbUBjCySCQf-B8n7aFbj_3CrM3wbYvNHt_xZEswNSvB4cksZuIpwBAid0VP5TSbWdmjEtVWBMOTeIf6SAFPXzsDe_oHjEXKoGPxqv-RWusBorHaS_n5amy1XBaHx6ApssSRC_sUsjHKFe6sUx7tcAYIbnb_alDGdZ5rQ6e-PyRSIDOxe1egJN3MKRCyjOzdS4wqnb5sRlp46-vYrnbX63VZB5SNYi5ohB9xZ18d1Ik5lJKs_xMiUbpSRQtqu2Iv-7s7c9ROainGU67j-5Zrkh685MOxVUWiKF0tMB7YZ5j7lhcWaEMi9a62qNpqpntMia-Z71xhIWLwhaByM2NX3-QuMKLop6Bt52Lzuz9vZ18KNjVosxgh5AaTfGjU9bwxI4PEy0pzW-Xd_6I2NbfJGWsJxWhtAZYHtd3zCK9dDCT9Ou-FxopUcxoverUi-eMGSei8WlK7cmRQmL0qq34vx1k-YD0GW1Tlqzo6qvSM6Tk1xA7Y4isoGNMKaY480WoBojb4InmKdNPtgoZRA1sdtQUWfZbUF170u4t1oA06alrsfdFiWZy9muOonmvZeYyj0d_yCuAFNoXQl90pePG4XNEcvYHXyv_WE1LYTDKecDzG_jlEEutryVTqbqsyy0Qo7MPstB3_7SmSMhIpgMXpD1yiph4Uc2qmImzvLCodB-e8EfXdTHYKp7BY8w8nv1sgkekXrZm5EkwyjuScSHC-kAvF8jaKooAJgZTKpVGomNbLyiXLlnKEliubMNkS7EYdJdXx0c5YWA1B13N5EgmU2lMicOQG7b63ma1rjrgc8HygaCCyeO8fn1dzXxvNzS1_09GVZ9Rl2BUyl8adLOkWdGQzSxzKAkPR0eW20KIbtPfDJJCL2Q7X5il7GlRUssM8gjCTtrnnrOmi8wfQ6_r883cmeovNmS8jOEqmKCnitzz-vVso7QCUqXR_uDL38f3QMYjQuGo9g-cactHRjw9cxkGnla61wy7NWWIQHGE-M9S-NHE-lGngqYBUHJBAXgeeLTQe0KhxG5bMv1L72rz62bhxA_SCigPPadre5IivoWbhWr1w8j6Cq7aQL1ppAQBeIRGZYU2pxv95svHD8il1gc2ojJr6-I6_WHAsu7_hey85pu4cndfRDomRPRZtyzluxHX5EKMB9o-bhxtizFupuK4aJ9SUO7s2doG6fxTu85UMTkpL6ZiLNpRhJqJ17_6oS8S2K8hz1NjN3IVFhfN6ECIiitTkbE521ey37UC14eB24VahaLgcHt4ptlYGerTNlH-k6CGHdpA410ye82TaMJecw5jMtCi2yMr9HVSpMqQSVSdjRKEUCJgC6YGPsXdYLZrZQgCGxxjuJNYkSrsyII7QMiA4EM_YQv6c89P4NQo5H4hXAL0PXi4xvxRDFoeCPTdiWSs4kju48AJ2YeWir2Ayz7lign66ZvS1dqqIOyaZyZbrE5VHxTaxo_TEA5Faf9Lfki-jbGKEtRV-OSzQ=w1920-h911?auditContext=prefetch',
+      technologies: ['Python', 'ArcFace', 'Milvus', 'MySQL', 'Flask'],
+      features: ['Presença automárica', 'Admin Panel', 'Gamificação com pontuação'],
       liveUrl: '#',
       githubUrl: '#',
-      stats: { duration: '3 meses', team: '4 pessoas', performance: '99.9%' }
+      stats: { duration: 'Em andamento(6 meses)', team: '5 pessoas', performance: '89%' }
     },
     {
-      title: 'Task Management App',
-      description: 'Aplicativo de gerenciamento de tarefas em tempo real com colaboração em equipe, notificações push e sincronização offline. Interface intuitiva com drag & drop.',
+      title: 'Aplicativo para AGROPEC',
+      description: 'Aplicativo de mapa interativo e informações do evendo para Feira Agropecuária de Paragominas/PA',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Vue.js', 'FastAPI', 'MongoDB', 'Socket.io', 'PWA'],
+      technologies: ['React', 'Figma', '', 'Socket.io', 'PWA'],
       features: ['Real-time', 'Offline First', 'Team Collaboration'],
       liveUrl: '#',
       githubUrl: '#',
-      stats: { duration: '2 meses', team: 'Solo', performance: '98.5%' }
+      stats: { duration: '2 meses', team: '2 pessoas', performance: '90.5%' }
     },
     {
       title: 'Analytics Dashboard',
