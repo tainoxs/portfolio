@@ -29,17 +29,17 @@ const Projects: React.FC = () => {
       certificateUrl: 'https://drive.google.com/file/d/1kpeZzcdAjFOHBpbhGu-ZvJgKxBwLA5RV/view?usp=sharing', // Adicione a URL do certificado aqui
       stats: { duration: '2 meses', team: '2 pessoas', performance: '90.5%' }
     },
-    {
-      title: 'Analytics Dashboard',
-      description: 'Dashboard avançado de analytics com visualizações interativas, relatórios automatizados e integração com múltiplas fontes de dados. Processamento de big data em tempo real.',
-      image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
-      technologies: ['Next.js', 'Python', 'Redis', 'Docker', 'Chart.js'],
-      features: ['Big Data', 'Real-time Analytics', 'Automated Reports'],
-      liveUrl: '#',
-      githubUrl: '#',
-      certificateUrl: '#', // Adicione a URL do certificado aqui
-      stats: { duration: '4 meses', team: '6 pessoas', performance: '99.2%' }
-    }
+    // {
+    //   title: 'Analytics Dashboard',
+    //   description: 'Dashboard avançado de analytics com visualizações interativas, relatórios automatizados e integração com múltiplas fontes de dados. Processamento de big data em tempo real.',
+    //   image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
+    //   technologies: ['Next.js', 'Python', 'Redis', 'Docker', 'Chart.js'],
+    //   features: ['Big Data', 'Real-time Analytics', 'Automated Reports'],
+    //   liveUrl: '#',
+    //   githubUrl: '#',
+    //   certificateUrl: '#', // Adicione a URL do certificado aqui
+    //   stats: { duration: '4 meses', team: '6 pessoas', performance: '99.2%' }
+    // }
   ];
 
   return (
