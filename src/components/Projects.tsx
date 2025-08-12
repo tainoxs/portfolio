@@ -1,13 +1,16 @@
 import React from 'react';
 import { ExternalLink, Github, Calendar, Users, Zap, Award } from 'lucide-react';
+import ReconhecimentoFacial from '../assets/img/ReconhecimentoFacial.png';
+import Agropec from '../assets/img/Agropec.png';
+
 
 const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Reconhecimento Facial para Presença Automática',
-      description: 'Sistema de reconhecimento facial para controle de acesso em ambiente de ensino do CEUMA (Incode e ADS), com registro automático e features de gamificação pontuadas, como desafios, recompensas e rankeamento.(em desenvolvimento).',
+      description: 'Sistema de reconhecimento facial para controle de acesso em ambiente de ensino do CEUMA (Incode e ADS), com registro automático e features de gamificação pontuadas, como desafios, recompensas e rankeamento(em desenvolvimento).',
 
-      image: 'https://lh3.googleusercontent.com/fife/ALs6j_FMwLDPLdHrC2rO3T5c6P5QsXkZFFpt-EKw2_LQEiRiPJl8NOw3e1UazB06inkWqmRoFqdAP8ZMLr289IbMJ9P0FkrIgrP1-1FeKYuF-USG-fdhx6lv-4k4sQD-OzLdSM0uzVsc8YBBRkIr_oKQbUBjCySCQf-B8n7aFbj_3CrM3wbYvNHt_xZEswNSvB4cksZuIpwBAid0VP5TSbWdmjEtVWBMOTeIf6SAFPXzsDe_oHjEXKoGPxqv-RWusBorHaS_n5amy1XBaHx6ApssSRC_sUsjHKFe6sUx7tcAYIbnb_alDGdZ5rQ6e-PyRSIDOxe1egJN3MKRCyjOzdS4wqnb5sRlp46-vYrnbX63VZB5SNYi5ohB9xZ18d1Ik5lJKs_xMiUbpSRQtqu2Iv-7s7c9ROainGU67j-5Zrkh685MOxVUWiKF0tMB7YZ5j7lhcWaEMi9a62qNpqpntMia-Z71xhIWLwhaByM2NX3-QuMKLop6Bt52Lzuz9vZ18KNjVosxgh5AaTfGjU9bwxI4PEy0pzW-Xd_6I2NbfJGWsJxWhtAZYHtd3zCK9dDCT9Ou-FxopUcxoverUi-eMGSei8WlK7cmRQmL0qq34vx1k-YD0GW1Tlqzo6qvSM6Tk1xA7Y4isoGNMKaY480WoBojb4InmKdNPtgoZRA1sdtQUWfZbUF170u4t1oA06alrsfdFiWZy9muOonmvZeYyj0d_yCuAFNoXQl90pePG4XNEcvYHXyv_WE1LYTDKecDzG_jlEEutryVTqbqsyy0Qo7MPstB3_7SmSMhIpgMXpD1yiph4Uc2qmImzvLCodB-e8EfXdTHYKp7BY8w8nv1sgkekXrZm5EkwyjuScSHC-kAvF8jaKooAJgZTKpVGomNbLyiXLlnKEliubMNkS7EYdJdXx0c5YWA1B13N5EgmU2lMicOQG7b63ma1rjrgc8HygaCCyeO8fn1dzXxvNzS1_09GVZ9Rl2BUyl8adLOkWdGQzSxzKAkPR0eW20KIbtPfDJJCL2Q7X5il7GlRUssM8gjCTtrnnrOmi8wfQ6_r883cmeovNmS8jOEqmKCnitzz-vVso7QCUqXR_uDL38f3QMYjQuGo9g-cactHRjw9cxkGnla61wy7NWWIQHGE-M9S-NHE-lGngqYBUHJBAXgeeLTQe0KhxG5bMv1L72rz62bhxA_SCigPPadre5IivoWbhWr1w8j6Cq7aQL1ppAQBeIRGZYU2pxv95svHD8il1gc2ojJr6-I6_WHAsu7_hey85pu4cndfRDomRPRZtyzluxHX5EKMB9o-bhxtizFupuK4aJ9SUO7s2doG6fxTu85UMTkpL6ZiLNpRhJqJ17_6oS8S2K8hz1NjN3IVFhfN6ECIiitTkbE521ey37UC14eB24VahaLgcHt4ptlYGerTNlH-k6CGHdpA410ye82TaMJecw5jMtCi2yMr9HVSpMqQSVSdjRKEUCJgC6YGPsXdYLZrZQgCGxxjuJNYkSrsyII7QMiA4EM_YQv6c89P4NQo5H4hXAL0PXi4xvxRDFoeCPTdiWSs4kju48AJ2YeWir2Ayz7lign66ZvS1dqqIOyaZyZbrE5VHxTaxo_TEA5Faf9Lfki-jbGKEtRV-OSzQ=w1920-h911?auditContext=prefetch',
+      image: ReconhecimentoFacial,
       technologies: ['Python', 'ArcFace', 'Milvus', 'MySQL', 'Flask'],
       features: ['Presença automática', 'Admin Panel', 'Gamificação com pontuação'],
       liveUrl: '#',
@@ -18,9 +21,9 @@ const Projects: React.FC = () => {
     {
       title: 'Aplicativo para AGROPEC',
       description: 'Aplicativo com mapa interativo e informações do evento para Feira Agropecuária de Paragominas/PA',
-      image: 'https://lh3.googleusercontent.com/fife/ALs6j_FiflFJ5ac59gOGf5y8FY_akd5O3kpiUorX8gIIDV1iKV066v8LzMKYhMLRicB87AevF4nQ1YL0tBpZ4f6r42c0u0MTrlvGvd78ZrGu0A17_OPSouumd0OR2iVhK2y2QSSNzLFggvsaFO71tIUItVy-OTYUnrezq0FaGOX2Jbl6APs51nh9WyqHT0pDHITl4YdFyFOiETKb2QEHPfP8yy4jjFx3noJyCOkGvVr90Ku67ISvCN6n66LoERUeTT5ZBX1ZJGug1XpcKkr3DQksG8qNSFPL9kkznWDneswrPPO2BEvVLLsX98yk6j2AHkARLIrVQQ59VoEJJSjiNOYElQjQCq9hwSSYFFsVjKD34pVeV0non9vB1d1e4PR0RU4BpaUWzAptzr0fclEIpxHw7VfhmIZ2UbmJNMlgjBwqYgcCdFO8k0A31CQ46ZveIRKH1EtcUyBsNuuRsU7x1Uqp8DxJJXYzdkpR7mlXh_PCGOhF3iFPUNPGgK6lcz9LfAgsbK-LxjBvmtYMHutQUxbBJy5otAgPnFnjR4FyaE0StTZQOlxAxD-sY6Ex039WrAUDyb0Mo9Uh0XP9MLQGMSA8jFCtjj--CLmjzq0_lrD7hoKcLd5lOgJBnAkDZQrM3bbLf94cSpHARf6LSLRY_T8EJOCJSMGqT2LxOSE_jOYWdzwgemYtwAjUeD8WoofbwRGamYR8ZuuraePLbZ4IaSVbrF5NQCN-usnWAN2FpyEz27hokRGPVi4BpgRGKEUjjgPpARJz7eco9aHi8u4i5XtdCgbovNajbRka8tmh6rnTJvQa-6P3a-tLZTp9JbA7Ni6iIRdp_N51dfiVWmjKWzOYVeqaB-51QkA0jyD4pX9AmK426wwZnJ132Dc01ZyQeSFv4bCQazeclWZLFOI4onKSgLXbd3w8rgL0scWD1lZjN4LxVqtsRvauDS7LKan9hmR1FAG4oIugk4z2gUEK4vEVW04LuaNeMIE-1sObFKoHHhFXuH8RQ6AhkXsQhyeGKQN0w_-8ZuIsUylRt2chG_SIawtcphqfJLgfJsBf1rnOnUkEOhMIGsNzOgxM9pmvM6Lg_IAQyuduaKdnxidSouOlhV6wGk8V70_QHWiWcQR0qbCISXlzM2EHAbE5rb8TBCr27lZtRyxI-P4Abg7z9_CpZNok14LnQTS-lM8yFMr1n1lp-fqSE1Heq_VP1Tah9wgQ73Xy7yEQCbuMpJbHS3OEkU69VCYAWhQE_eK0zziADzt9pQtGsUoNIiDMxiQ-y3XkNRBcl2HP7Mr2qAfgVjeSX_8ytGizP6P2enULuv5eMJ6mObF2u1BnBz0igNRR9lcsLomUOwJcZI8MUJsMnbtXJ-vx-xA9DyVlDIhaFuDkaNdgY1L9rtJtIiA06gFbf_TZ_DHLs4lsL4nd-aa6TV33bMK48afmHXO56hHE4ObhanAHmqmeIz6ZIofZ5vokOblGS5jAEuNMkBY35ayKsEkh08Tdsk59SRWx9L5J4HedbW2myQ55IzfmLaJE2PgPvk1mkiOKB17pzaWfnkgVhoobXyZ7DLLGIanZUeE2v8gLzpBVsSPeX7ZN9Mn0n2pYD5eLUOWFWGS4cWvT3f7aH_UXi41ntuj72CIqxPvZyA=w998-h895?auditContext=prefetch',
+      image: Agropec,
       technologies: ['React', 'Figma'],
-      features: ['Real-time', 'Mapa interativo', 'Notificações em tempo real'],
+      features: ['Real-time', 'Mapa interativo', 'Notificações em tempo real','Gamificação'],
       liveUrl: 'https://www.figma.com/proto/lh9XAKcRdOF09mLjVBbPYW/PROT%C3%93TIPO-PARA-AGROPEC?page-id=0%3A1&node-id=1-16&viewport=263%2C580%2C0.16&t=eD127RpqSY1qQpzX-1&scaling=scale-down&content-scaling=fixed',
       githubUrl: 'https://github.com/tainoxs/AGROPEC',
       certificateUrl: 'https://drive.google.com/file/d/1kpeZzcdAjFOHBpbhGu-ZvJgKxBwLA5RV/view?usp=sharing', // Adicione a URL do certificado aqui
@@ -44,7 +47,7 @@ const Projects: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            <span className="gradient-text">Projetos em Destaque</span>
+            <span className="gradient-text">Projetos e participações em Destaque</span>
           </h2>
 
           <div className="space-y-20">

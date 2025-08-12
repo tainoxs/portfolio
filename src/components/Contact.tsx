@@ -124,7 +124,7 @@ const Contact: React.FC = () => {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
+            {/* <div className="bg-gray-800/50 rounded-2xl p-8 border border-gray-700">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
@@ -198,31 +198,30 @@ const Contact: React.FC = () => {
                 >
                   {isSubmitting ? (
                     <div className="flex items-center justify-center space-x-2">
-                      <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                      <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
                       <span>Enviando...</span>
                     </div>
                   ) : (
-                    <div className="flex items-center justify-center space-x-2">
+                    <span className="flex items-center justify-center space-x-2">
                       <Send className="w-5 h-5" />
                       <span>Enviar Mensagem</span>
-                    </div>
+                    </span>
                   )}
                 </button>
 
-                {/* Success/Error Messages */}
                 {submitStatus === 'success' && (
-                  <div className="p-4 bg-green-500/10 border border-green-500/30 rounded-lg text-green-400 text-center">
-                    ✅ Mensagem enviada com sucesso! Retornarei em breve.
+                  <div className="text-center p-4 bg-green-900/50 border border-green-700 text-green-300 rounded-lg">
+                    Mensagem enviada com sucesso! Obrigado por entrar em contato.
                   </div>
                 )}
-                
+
                 {submitStatus === 'error' && (
-                  <div className="p-4 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-center">
-                    ❌ Erro ao enviar mensagem. Tente novamente.
+                  <div className="text-center p-4 bg-red-900/50 border border-red-700 text-red-300 rounded-lg">
+                    Ocorreu um erro ao enviar a mensagem. Tente novamente mais tarde.
                   </div>
                 )}
               </form>
-            </div>
+            </div> */}
           </div>
 
           {/* Footer */}

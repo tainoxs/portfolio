@@ -7,12 +7,10 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'React', logo: '⚛️', level: 60 },
         { name: 'TypeScript', logo: '🔷', level: 50 },
-        //{ name: 'Next.js', logo: '▲', level: 60 },
-        //{ name: 'Tailwind CSS', logo: '🎨', level: 40 },
+        { name: 'Next.js', logo: '▲', level: 60 },
+        { name: 'Tailwind CSS', logo: '🎨', level: 40 },
         // { name: 'Vue.js', logo: '💚', level: 80 },
-        { name: 'HTML', logo: '🌐', level: 90 },
-        { name: 'CSS', logo: '🎨', level: 90 }, 
-        { name: 'JavaScript', logo: '🟨', level: 90 },
+        // { name: 'JavaScript', logo: '🟨', level: 90 },
       ]
     },
     {
@@ -21,10 +19,7 @@ const Skills: React.FC = () => {
         { name: 'Node.js', logo: '🟢', level: 50 },
         { name: 'Python', logo: '🐍', level: 80 },
         { name: 'Java', logo: '☕', level: 80 },
-        // { name: 'Express.js', logo: '🚂', level: 90 },
-        // { name: 'FastAPI', logo: '⚡', level: 80 },
-        // { name: 'GraphQL', logo: '🔗', level: 75 },
-        // { name: 'REST APIs', logo: '🌐', level: 95 },
+        { name: 'SpringBoot', logo: '🍃', level: 50 },
       ]
     },
     {
