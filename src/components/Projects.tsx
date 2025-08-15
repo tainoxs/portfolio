@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       technologies: ['Java', 'Spring Boot', 'MySQL'],
       features: ['448 horas', 'Projetos práticos  '],
       liveUrl: '#',
-      githubUrl: 'https://github.com/tainoxs?tab=repositories&q=&type=&language=java&sort=',
+      githubUrl: 'https://github.com/tainoxs',
       certificateUrl: 'https://drive.google.com/file/d/1O_LzaEzA1V1K8IFapkYC2wGTmdgKO5C2/view?usp=sharing', // Adicione a URL do certificado aqui
       stats: { duration: '448 horas', team: '1', performance: '95.5%' }
     },
