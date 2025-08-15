@@ -2,6 +2,9 @@ import React from 'react';
 import { ExternalLink, Github, Calendar, Users, Zap, Award } from 'lucide-react';
 import ReconhecimentoFacial from '../assets/img/ReconhecimentoFacial.png';
 import Agropec from '../assets/img/Agropec.png';
+import Incode from '../assets/img/Incode.png';
+import inovaPortos from '../assets/img/InovaPortos.jpg';
+
 
 
 const Projects: React.FC = () => {
@@ -29,17 +32,28 @@ const Projects: React.FC = () => {
       certificateUrl: 'https://drive.google.com/file/d/1kpeZzcdAjFOHBpbhGu-ZvJgKxBwLA5RV/view?usp=sharing', // Adicione a URL do certificado aqui
       stats: { duration: '2 meses', team: '2 pessoas', performance: '90.5%' }
     },
-    // {
-    //   title: 'Analytics Dashboard',
-    //   description: 'Dashboard avançado de analytics com visualizações interativas, relatórios automatizados e integração com múltiplas fontes de dados. Processamento de big data em tempo real.',
-    //   image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
-    //   technologies: ['Next.js', 'Python', 'Redis', 'Docker', 'Chart.js'],
-    //   features: ['Big Data', 'Real-time Analytics', 'Automated Reports'],
-    //   liveUrl: '#',
-    //   githubUrl: '#',
-    //   certificateUrl: '#', // Adicione a URL do certificado aqui
-    //   stats: { duration: '4 meses', team: '6 pessoas', performance: '99.2%' }
-    // }
+    {
+      title: 'Incode Tech School - Trilha Back-end',
+      description: 'Trilha de programação Back-end com foco em Java, Spring Boot e MySQL',
+      image: Incode,
+      technologies: ['Java', 'Spring Boot', 'MySQL'],
+      features: ['448 horas', 'Projetos práticos  '],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/tainoxs?tab=repositories&q=&type=&language=java&sort=',
+      certificateUrl: 'https://drive.google.com/file/d/1O_LzaEzA1V1K8IFapkYC2wGTmdgKO5C2/view?usp=sharing', // Adicione a URL do certificado aqui
+      stats: { duration: '448 horas', team: '1', performance: '95.5%' }
+    },
+    {
+      title: 'Inova Portos 2025',
+      description: 'Debates e apresentações sobre a transformação digital e a inteligência artificial na indústria portuária brasileira.',
+      image: inovaPortos,
+      technologies: ['Java', 'Spring Boot', 'MySQL'],
+      features: ['Palestra de Arthur Igreja', 'Stands de projetos'],
+      liveUrl: '#',
+      githubUrl: '#',
+      certificateUrl: 'https://drive.google.com/file/d/14d36bcf3mkYHHUdEZWifWt6Zle-iiZhx/view?usp=sharing', // Adicione a URL do certificado aqui
+      stats: { duration: '448 horas', team: '1', performance: '95.5%' }
+    },
   ];
 
   return (
@@ -68,7 +82,7 @@ const Projects: React.FC = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="flex space-x-3">
+                      <div className="flex flex-wrap gap-3">
                         <a
                           href={project.liveUrl}
                           target="_blank"
@@ -135,8 +149,9 @@ const Projects: React.FC = () => {
                   </div>
 
                   {/* Technologies */}
+                  {project.title !== 'Inova Portos 2025' &&
                   <div>
-                    <h4 className="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">
+                    <h4 className="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider ">
                       Tecnologias Utilizadas
                     </h4>
                     <div className="flex flex-wrap gap-2">
@@ -150,6 +165,7 @@ const Projects: React.FC = () => {
                       ))}
                     </div>
                   </div>
+                  }
 
                   {/* Features */}
                   <div>
@@ -169,7 +185,7 @@ const Projects: React.FC = () => {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex space-x-4 pt-4">
+                  <div className="flex flex-wrap gap-4 pt-4">
                     <a
                       href={project.liveUrl}
                       target="_blank"

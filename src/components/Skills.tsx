@@ -30,6 +30,7 @@ const Skills: React.FC = () => {
         // { name: 'AWS', logo: '☁️', level: 80 },
         { name: 'Docker', logo: '🐳', level: 40 },  
         { name: 'MySQL', logo: '🐬', level: 70 },
+        // { name: 'Google Cloud', logo: '🐬', level: 70 },
         // { name: 'Redis', logo: '🔴', level: 75 },
         // { name: 'Firebase', logo: '🔥', level: 80 },
       ]

@@ -21,10 +21,11 @@ const About: React.FC = () => {
             <span className="gradient-text">Sobre Mim</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className=" grid md:grid-cols-2 gap-12 relative items-center position-absolute ">
             <div className="text-center md:text-left">
-              <div className="w-64 h-64 mx-auto md:mx-0 mb-8 relative">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary-blue to-primary-green p-1">
+              <div className="w-64 h-64 mx-auto md:mx-0 mb-8 relativea align-middle relative">
+
+                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary-blue to-primary-green p-1 ">
                   <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
                     <img
                       src={eu}
