@@ -52,7 +52,7 @@ const Projects: React.FC = () => {
       liveUrl: '#',
       githubUrl: '#',
       certificateUrl: 'https://drive.google.com/file/d/14d36bcf3mkYHHUdEZWifWt6Zle-iiZhx/view?usp=sharing', // Adicione a URL do certificado aqui
-      stats: { duration: '448 horas', team: '1', performance: '95.5%' }
+      stats: { duration: '20 horas', team: '1', performance: '95.5%' }
     },
   ];
 
