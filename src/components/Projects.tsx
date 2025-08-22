@@ -4,6 +4,7 @@ import ReconhecimentoFacial from '../assets/img/ReconhecimentoFacial.png';
 import Agropec from '../assets/img/Agropec.png';
 import Incode from '../assets/img/Incode.png';
 import inovaPortos from '../assets/img/InovaPortos.jpg';
+import CoresAcompanham from '../assets/img/CoresAcompanham.png';
 
 
 
@@ -31,6 +32,17 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/tainoxs/AGROPEC',
       certificateUrl: 'https://drive.google.com/file/d/1kpeZzcdAjFOHBpbhGu-ZvJgKxBwLA5RV/view?usp=sharing', // Adicione a URL do certificado aqui
       stats: { duration: '2 meses', team: '2 pessoas', performance: '90.5%' }
+    },
+    {
+      title: '"Cores Acompanham"',
+      description: 'Aplicativo de visão computacional LEVE em Python que acompanha, em tempo real, as cores exibidas na tela, passando para um canal DMX (ArtNet)',
+      image: CoresAcompanham,
+      technologies: ['Python', 'Gemini'],
+      features: ['Real-time','Cálculo da cor média','Suavização temporal'],
+      liveUrl: 'https://drive.google.com/drive/folders/1AkHHUXQ82badsu3AXgfD_86GbZZLnWgr?usp=sharing',
+      githubUrl: 'https://github.com/tainoxs/CoresAcompanham',
+      certificateUrl: '#', // Adicione a URL do certificado aqui
+      stats: { duration: '2 dias', team: '1 pessoas', performance: '100%' }
     },
     {
       title: 'Incode Tech School - Trilha Back-end',
